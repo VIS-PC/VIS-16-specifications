@@ -4,7 +4,8 @@
   "description": "the specifications for the VIS 16 PC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "g": "docsify g ./docs",
+    "s": "docsify s"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,6 @@
   },
   "homepage": "https://github.com/VIS-PC/VIS-16-specifications#readme",
   "devDependencies": {
-    "docpress": "0.8.2"
+    "docsify-cli": "^4.4.3"
   }
 }
