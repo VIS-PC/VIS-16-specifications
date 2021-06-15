@@ -1,22 +1,44 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+<title>VIS 16 Specifications</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+  <!-- use the "docsify-themeable" theme for maximum customizability
+        https://jhildenbiddle.github.io/docsify-themeable/ -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-themeable@0.7.2/dist/css/theme-simple.css">
+
+  <style>
+    /* customize the theme by setting CSS variables below
+        https://jhildenbiddle.github.io/docsify-themeable/#/customization */
+    :root {
+      --theme-hue: 345;
+      --link-color: #3652d3;
+    }
+  </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <!-- to display something while with docsify is loading, add it here -->
+  </div>
+  
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      // configure Docsify here
+      //  https://docsify.js.org/#/configuration
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- load Docsify and docsify-themeable
+        https://docsify.js.org -->
+  <script src="https://unpkg.com/docsify@4.9.4/lib/docsify.min.js"></script>
+  <script src="https://unpkg.com/docsify-themeable@0.7.2/dist/js/docsify-themeable.min.js"></script>
+  
+  <!-- add more plugins here
+        https://docsify.js.org/#/plugins -->
+  <script src="https://unpkg.com/docsify-copy-code@2.1.0/dist/docsify-copy-code.min.js"></script>
 </body>
 </html>
