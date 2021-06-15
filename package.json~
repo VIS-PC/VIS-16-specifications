@@ -4,9 +4,8 @@
   "description": "the specifications for the VIS 16 PC",
   "main": "index.js",
   "scripts": {
-    "start": "docsify g ./docs",
-    "s": "docsify s",
-    "i-d": "npm i -g docsify-cli"
+    "g": "docsify g ./docs",
+    "s": "docsify s"
   },
   "repository": {
     "type": "git",
